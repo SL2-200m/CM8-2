@@ -1,0 +1,14 @@
+# This file tells search engine crawlers which pages to crawl or not to crawl.
+
+# Allow all crawlers full access to the site.
+User-agent: *
+Disallow:
+
+# You could also choose to block specific crawlers or directories.
+# For example, to block a private admin folder:
+# Disallow: /admin/
+
+
+# Location of the sitemap file.
+# IMPORTANT: Replace "yourdomain.com" with your actual domain name.
+Sitemap: https://www.yourdomain.com/sitemap.xml
