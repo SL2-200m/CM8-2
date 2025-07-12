@@ -1,0 +1,94 @@
+/* custom-styles.css */
+
+/* --- General Body and Font Styling --- */
+body {
+    font-family: 'Roboto', sans-serif; /* Default font for paragraph text */
+    background-color: #f8f9fa; /* A light grey background for the main content area */
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Poppins', sans-serif; /* A stronger, bolder font for headings */
+    font-weight: 700;
+}
+
+/* --- Header & Navbar Customization --- */
+.navbar.navbar-dark {
+    background-color: #1c1c1c !important; /* A very dark grey, classier than default black */
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+/* Customizing the main REGISTER button color to a brand-specific gold/yellow */
+.btn-primary {
+  background-color: #d4af37;
+  border-color: #d4af37;
+  color: #1c1c1c; /* Dark text for better contrast on gold */
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #b89a30; /* A darker shade for hover */
+  border-color: #b89a30;
+  color: #fff;
+}
+
+/* --- Main Content Section --- */
+main h1 {
+    font-size: 2.2rem; /* Responsive font size for the main heading */
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+/* Custom styling for the action buttons in the main content */
+.btn-success {
+    background-color: #28a745; /* Standard success green */
+    border-color: #28a745;
+}
+
+.btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
+}
+
+.btn-lg:hover {
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* --- Footer --- */
+footer.bg-dark {
+    background-color: #1c1c1c !important; /* Match the header color */
+}
+
+footer h5 {
+    color: #d4af37; /* Gold color for footer headings to match brand */
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+footer a {
+    color: #adb5bd; /* A light, muted grey for footer links */
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #ffffff; /* Brighter white on hover */
+    text-decoration: underline;
+}
+
+footer .fab {
+    transition: transform 0.2s ease;
+}
+
+footer .fab:hover {
+    transform: scale(1.2); /* Make social and payment icons slightly bigger on hover */
+    color: #d4af37;
+}
+
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+}
